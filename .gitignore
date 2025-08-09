@@ -1,5 +1,4 @@
 <<<<<<< HEAD
-config/FirebasePrivateKey.json
 /.phpunit.cache
 /node_modules
 /public/build
@@ -54,3 +53,4 @@ Homestead.json
 .phpactor.json
 auth.json
 >>>>>>> 91e5ee3b3b8aec26240ae2c0f4edfa302749171e
+config/FirebasePrivateKey.json
