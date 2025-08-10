@@ -29,6 +29,7 @@ class MerchantParcelExportResource extends JsonResource
                 'cod_charge'        => $this->cod_amount,
                 'total_charge'      => $this->total_delivery_amount + $this->vat_amount,
                 'current_payable'   => $this->current_payable,
+                'note'              => $this->note,
             ];
     }
 }

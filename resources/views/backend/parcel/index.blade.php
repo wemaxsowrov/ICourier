@@ -430,7 +430,15 @@
                                                 </td>
                                             @endif
 
-                                                
+                                            <td class="merchantpayment">
+                                                <div class="w150">
+                                                    <div class="d-flex">
+                                                        <i class="fas fa-truck"></i>&nbsp;
+                                                        <p>{{ $parcel->hub->name ?? 'N/A' }}</p>
+                                                    </div>
+                                                </div>
+                                            </td>
+
 
                                             <td>
                                                 @if ($parcel->status == \App\Enums\ParcelStatus::DELIVERED)

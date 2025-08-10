@@ -35,7 +35,8 @@ class MerchantParcelExport implements FromCollection,WithHeadings,WithEvents
             'Vat',
             'COD',
             'Total Charge',
-            'Payable'
+            'Payable',
+            'Notes'
         ];
     }
 
